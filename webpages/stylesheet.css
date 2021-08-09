@@ -24,6 +24,7 @@ p {
 .top-header-text {
     text-align: center;
     height: 10vh;
+    font-size: 4vw;
     font-size: 4vh;
 }
 
@@ -44,7 +45,6 @@ p {
     opacity: 45%;
     position: absolute;
     top: 10vh;
-    left: 0;
 }
 
 .body-anchor-boxes:hover {
@@ -55,12 +55,16 @@ p {
     text-align:center;
     vertical-align: middle;
     line-height: 40vh;
-    font-size: 55px;
+    font-size: 10vh;
+    text-decoration:none;
+    color: white;
 }
 
 .github-logo {
-    top:0;
+    top: 0;
     left: 0;
+    height: 9.85vh;
+    width: 4.13vw;
     position: absolute;
     background-color: rgba(0, 0, 0, 0.45);
 }
