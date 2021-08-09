@@ -1,4 +1,4 @@
-//Typewrites Hello World
+//Typewrites Hello World and my name on the header
 var i = 0;
 var txt = "Hello World;My name is EJ Gaygay;";
 var speed = 75;

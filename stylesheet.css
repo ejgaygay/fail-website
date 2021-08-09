@@ -1,5 +1,5 @@
 
-
+/*reset canvas*/
 * {
     margin: 0;
     padding: 0;
@@ -12,10 +12,10 @@
 }
 
 p {
-    color: lightgray;
+    color: white;
 }
 .top-header {
-    background-color: darkslategray;
+    background-color: rgba(0, 0, 0, 0.45);
     height: 10vh;
     width: 100vw;
     position: sticky;
@@ -27,7 +27,37 @@ p {
 }
 
 .body-view {
-    height: 90vh;
+    margin-top: -10vh;
+    height: 100vh;
     width: 100vw;
-    background-color: green;
+}
+
+.background-image {
+    position: relative;
+}
+
+.body-anchor-boxes {
+    height: 40vh;
+    width: 50vw;
+    background-color: darkslategray;
+    opacity: 45%;
+    position: absolute;
+    top: 10vh;
+    left: 0;
+}
+
+.body-anchor-boxes:hover {
+    opacity: 85%;
+}
+
+.body-anchor-text {
+    text-align:center;
+    vertical-align: middle;
+    line-height: 40vh;
+    font-size: 55px;
+}
+
+.github-logo {
+    float:left;
+    background-color: rgba(0, 0, 0, 0.45);
 }
