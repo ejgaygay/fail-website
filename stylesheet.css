@@ -23,7 +23,8 @@ p {
 
 .top-header-text {
     text-align: center;
-    font-size: 35px;
+    height: 10vh;
+    font-size: 4vh;
 }
 
 .body-view {
@@ -58,6 +59,8 @@ p {
 }
 
 .github-logo {
-    float:left;
+    top:0;
+    left: 0;
+    position: absolute;
     background-color: rgba(0, 0, 0, 0.45);
 }
