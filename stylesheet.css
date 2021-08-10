@@ -22,10 +22,11 @@ p {
 }
 
 .top-header-text {
-    text-align: center;
+    text-align: left;
     height: 10vh;
     font-size: 4vw;
     font-size: 4vh;
+    text-align:center;
 }
 
 .body-view {
@@ -60,11 +61,12 @@ p {
     color: white;
 }
 
-.github-logo {
-    top: 0;
-    left: 0;
-    height: 9.85vh;
-    width: 4.13vw;
+.github-text {
+    top: 1vh;
+    left: 2vw;
+    height: 4vh;
+    width: 2vw;
+    font-size: 2vw;
     position: absolute;
-    background-color: rgba(0, 0, 0, 0.45);
+    color: white;
 }
